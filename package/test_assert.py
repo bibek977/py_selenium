@@ -14,3 +14,4 @@ def test_assert():
 # same keyword run == pytest -k asse -s
 # selective run == pytest -m runthis -s 
 # selective run == pytest -m runthis -s -v for more details
+# selective run == pytest -s -v test_print.py::test_print for more details
